@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "edulearn": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "edulearn"
+    }
+  },
+  "defaultProject": "edulearn",
+  "cli": {
+    "analytics": "49d3372e-dc0d-4785-8f78-6a49a3cb22e5"
+  }
 }
