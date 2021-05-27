@@ -1,0 +1,30 @@
+<form action="action_page.php">
+  <div class="container">
+    <h1>Registrace</h1>
+
+    <hr>
+
+
+    <label for="email"><b>Uživatelské jméno</b></label>
+    <div>
+    <input type="text" placeholder="Zadejte Uživatelské jméno" name="email" id="email" required>
+    </div>
+
+    <label for="psw"><b>Heslo</b></label>
+    <div>
+    <input type="password" placeholder="Zadejte Heslo" name="psw" id="psw" required>
+    </div>
+
+    <label for="psw-repeat"><b>Heslo Znovu</b></label>
+    <div>
+    <input type="password" placeholder="Heslo Znovu" psw-repeat id="psw-repeat" required>
+    </div>
+    <hr>
+
+    <button type="submit" class="registerbtn">Zaregistrovat</button>
+  </div>
+
+  <div class="container signin">
+    <p>Již máte existující účet? <a routerLink="/login">Přihlašte se</a>.</p>
+  </div>
+</form>

@@ -1,57 +1,75 @@
 <nav>
+  <div class="register">
+    <button routerLink="register" class="registerbtn">Registrace</button>
+  </div>
+
   <div class="dropdown">
     <button routerLink="home" class="dropbtn">Home</button>
     <div class="dropdown-content">
     </div>
   </div>
 <div class="dropdown">
-  <button class="dropbtn">1. Třída</button>
+  <button class="dropbtn">1. Ročník</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a class="lastdrop" href="#">Link 3</a>
+    <a routerLink="slova" >Slova</a>
+    <a routerLink="hlasky" >Hlásky</a>
+    <a routerLink="dvojhlasky-hlasky" >Dvojhlásky a hlásky</a>
+    <a routerLink="slabiky" >Slabiky</a>
+    <a class="lastdrop" routerLink="velka-mala" >Velká a malá písmena</a>
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">2. Třída</button>
+  <button class="dropbtn">2. Ročník</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a class="lastdrop" href="#">Link 3</a>
+    <a routerLink="abeceda" >Abeceda</a>
+    <a routerLink="vety">Věty</a>
+    <a routerLink="slovni-druhy">Slovní druhy</a>
+    <a routerLink="slova2">Slova</a>
+    <a routerLink="samohlasky-souhlasky">Samohlásky a souhlásky</a>
+    <a routerLink="pismeno-e">Písmeno ě</a>
+    <a class="lastdrop" routerLink="souhlasky-konec-slova">Souhlásky na konci slov</a>
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">3. Třída</button>
+  <button class="dropbtn">3. Ročník</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a  class="lastdrop" href="#">Link 3</a>
+    <a routerLink="tvary-slov">Tvary slov</a>
+    <a routerLink="souhlasky-stred">Souhlásky uprostřed slov</a>
+    <a routerLink="vyjm-slova">Vyjmenovaná slova</a>
+    <a routerLink="podst-jmena">Podstatná jména</a>
+    <a  class="lastdrop" routerLink="slovesa">Slovesa</a>
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">4. Třída</button>
+  <button class="dropbtn">4. Ročník</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a class="lastdrop" href="#">Link 3</a>
+    <a routerLink="skladba-slova">Skladba slova</a>
+    <a routerLink="slovni-druhy4">Slovní druhy</a>
+    <a routerLink="podst-jmena-stred">Podst. jména - rod střední</a>
+    <a routerLink="podst-jmena-zen">Podst. jména - rod ženský</a>
+    <a class="lastdrop" routerLink="podst-jmena-muz">Podst. jména - rod mužský</a>
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn2">5. Třída</button>
+  <button class="dropbtn2">5. Ročník</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a class="lastdrop" href="#">Link 3</a>
+    <a routerLink="vyznam-slov">Význam slov</a>
+    <a routerLink="stavba-slova">Stavba slova</a>
+    <a routerLink="zajmena">Zájmena</a>
+    <a routerLink="cislovky">Číslovky</a>
+    <a class="lastdrop" routerLink="podmet-prisudek">Podmět a přísudek</a>
   </div>
+
 </div>
+
+
+
 </nav>
 
 
 <router-outlet></router-outlet>
 
-<footer class="bg-light text-center text-lg-start ">
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); display: inline-block; text-align: center;   margin-right: 100px;
-">
-    © 2021 Copyright: EDUcanet
+<footer class="bg-transparent text-center text-lg-start ">
+  <div class="text-center p-3">© 2021 Copyright: EDUcanet
   </div>
 </footer>

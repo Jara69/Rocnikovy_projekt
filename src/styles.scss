@@ -1,7 +1,7 @@
 body {
-  background: linear-gradient(-45deg, #000000	, #696969);
+  background: linear-gradient(-45deg, #333333	, #696969);
   background-size: 400% 400%;
-  animation: gradient 60s ease infinite;
+  animation: gradient 50s ease infinite;
 }
 
 @keyframes gradient {
@@ -16,4 +16,19 @@ body {
   }
 }
 @import "~bootstrap";
+
+.card-header{
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+}
+
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 100px;
+
+}
 
