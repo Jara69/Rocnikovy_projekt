@@ -30,6 +30,7 @@ import {ZajmenaComponent} from "./rocnik5/zajmena/zajmena.component";
 import {SlovniDruhyComponent} from "./rocnik2/slovni-druhy/slovni-druhy.component";
 import {RegisterComponent} from "./register/register.component";
 import {LoginComponent} from "./login/login.component";
+import {DoplnPismenDvojComponent} from './rocnik1_log/dopln-pismen-dvoj/dopln-pismen-dvoj.component';
 
 
 const routes: Routes = [
@@ -68,6 +69,9 @@ const routes: Routes = [
 
   {path: 'register', component: RegisterComponent},
   {path: 'login', component: LoginComponent},
+
+  {path: 'dopln_pismen_dvoj', component: DoplnPismenDvojComponent},
+
 
 ];
 

@@ -1,0 +1,53 @@
+<h1>Slova - doplňování písmen (dvojvýrazy)</h1>
+<p>Dopň chybějící písmena do slov</p>
+
+<form (ngSubmit)="check()">
+<div class="card">
+  <div  class="card-body">
+   modrá oblo <input [(ngModel)]="pismenoh" [ngModelOptions]="{standalone: true}" > a
+    <div>
+      mléčná čoko<input [(ngModel)]="pismenol" [ngModelOptions]="{standalone: true}" > áda
+    </div>
+
+    <div>
+      modrý hrne<input [(ngModel)]="pismenok" [ngModelOptions]="{standalone: true}" >
+    </div>
+
+    <div>
+      barevný<input [(ngModel)]="pismenom" [ngModelOptions]="{standalone: true}" > otýl
+    </div>
+
+    <div>
+      vy<input [(ngModel)]="pismenos" [ngModelOptions]="{standalone: true}" > oké hory
+    </div>
+
+    <div>
+      zelené jablk<input [(ngModel)]="pismenoO" [ngModelOptions]="{standalone: true}" >
+    </div>
+
+    <div>
+      leklá ry<input [(ngModel)]="pismenob" [ngModelOptions]="{standalone: true}" >a
+    </div>
+
+    <div>
+      če<input [(ngModel)]="pismenor" [ngModelOptions]="{standalone: true}" > stvé ovoce
+    </div>
+
+    <div>
+      teplé jí<input [(ngModel)]="pismenod" [ngModelOptions]="{standalone: true}" >lo
+    </div>
+
+    <div>
+      zákl<input [(ngModel)]="pismenoa" [ngModelOptions]="{standalone: true}" >dní škola
+    </div>
+
+    <div>
+    <button  (click)="check()" (click)="check2()" (click)="check3()" (click)="check4()" (click)="check5()" (click)="check6()" (click)="check7()" (click)="check8()" (click)="check9()" (click)="check10()" (click)="vyhodnotit()" (click)="getProcenta()" >Vyhodnotit</button>
+      {{this.counter}} |
+      {{this.znamka}}
+      {{this.procenta}}
+    </div>
+
+  </div>
+</div>
+</form>
